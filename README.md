@@ -72,10 +72,8 @@ This map shows the change in scheduled daytime bus departures per hour between T
 
 ### Additional interactive and temporal analysis
 
-- [Interactive potential bus hubs map](wm_bus_hubs.html)
-- [Hourly departure heatmap for selected stops](wm_school_time_heatmap.html)
-
-GitHub provides access to the HTML files, which can be downloaded and opened locally in a browser.
+- [Explore the interactive bus hubs map](https://johanna-cox.github.io/west-midlands-gtfs-analysis/wm_bus_hubs.html)
+- [View the hourly departure heatmap](https://johanna-cox.github.io/west-midlands-gtfs-analysis/wm_school_time_heatmap.html)
 
 ## Explore the analysis
 
