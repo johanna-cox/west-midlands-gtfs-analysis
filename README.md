@@ -103,7 +103,7 @@ The original GTFS dataset is not included in the repository due to its size. Dat
 
 To reproduce the analysis, download the GTFS data, configure the local file path in the notebook and run the cells in sequence.
 
-The `ANALYSIS_DATE` parameter controls the main analysis date. parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates (3 and 7 November 2026).
+The `ANALYSIS_DATE` parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates (3 and 7 November 2026).
 
 ## AI-assisted development
 
