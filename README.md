@@ -93,9 +93,15 @@ Findings relate to the selected November 2026 dates and should not be assumed to
 
 The analysis was developed in Python using Jupyter Notebook, pandas, NumPy, GeoPandas, Shapely, Matplotlib and Folium.
 
-The archived GTFS source data is not included in the repository because of its size. Reproducing the analysis requires obtaining the relevant GTFS data and configuring the local data path.
+Install the required Python packages using:
 
-The notebook's `ANALYSIS_DATE` parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates.
+pip install -r requirements.txt
+
+The original GTFS dataset is not included in the repository due to its size. Data can be obtained from the Department for Transport's Bus Open Data Service. The analysis uses an archived dataset downloaded on 2 November 2026; results may differ when using a newer version.
+
+To reproduce the analysis, download the GTFS data, configure the local file path in the notebook and run the cells in sequence.
+
+The ANALYSIS_DATE parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates (3 and 7 November 2026).
 
 ## AI-assisted development
 
