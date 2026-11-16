@@ -16,6 +16,22 @@ The project combines timetable processing, exploratory data analysis and geospat
 
 ## Data and methodology
 
+### Data source and licence
+
+**Source:** Department for Transport (DfT), Bus Open Data Service (BODS).
+
+**Dataset:** [West Midlands regional GTFS timetable data](https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/west_midlands/), downloaded 2 November 2026.
+
+**Licence:** [Open Government Licence v3.0](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+
+Contains public sector information licensed under the Open Government Licence v3.0.
+
+The analysis, interpretations and visualisations are independently produced and are not endorsed by the Department for Transport or individual transport operators.
+
+The original GTFS dataset is not included in this repository. The download link provides the current version, which may differ from the archived version used in this analysis.
+
+### Methodolgy
+
 The analysis uses an archived GTFS dataset dated **2 November 2026**, containing approximately 30,500 stops, 1,166 routes and 6.6 million stop-time records.
 
 The main analysis examines **Tuesday 3 November 2026**, with a comparison against **Saturday 7 November 2026**.
