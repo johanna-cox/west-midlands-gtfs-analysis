@@ -30,7 +30,7 @@ The analysis, interpretations and visualisations are independently produced and 
 
 The original GTFS dataset is not included in this repository. The download link provides the current version, which may differ from the archived version used in this analysis.
 
-### Methodolgy
+### Methodology
 
 The analysis uses an archived GTFS dataset dated **2 November 2026**, containing approximately 30,500 stops, 1,166 routes and 6.6 million stop-time records.
 
@@ -45,7 +45,7 @@ Using Python, pandas, GeoPandas and Folium, the workflow:
 5. Examines hourly departure patterns at selected stops.
 6. Compares Tuesday and Saturday service provision and maps the geographic differences.
 
-The main daytime frequency measure covers **07:00–19:00**. Evening services are examined separately.
+The main daytime frequency measure covers **07:00–19:00**. Evening services are examined separately. Scheduled departures per hour are calculated by dividing the total number of scheduled departures within a defined time period by the duration of that period. This represents an average service frequency, not a uniform hourly timetable. Services may be concentrated at particular times, so a higher average does not necessarily indicate regular departures or shorter passenger waiting times.
 
 ## Key findings
 
@@ -95,13 +95,15 @@ The analysis was developed in Python using Jupyter Notebook, pandas, NumPy, GeoP
 
 Install the required Python packages using:
 
+```bash
 pip install -r requirements.txt
+```
 
 The original GTFS dataset is not included in the repository due to its size. Data can be obtained from the Department for Transport's Bus Open Data Service. The analysis uses an archived dataset downloaded on 2 November 2026; results may differ when using a newer version.
 
 To reproduce the analysis, download the GTFS data, configure the local file path in the notebook and run the cells in sequence.
 
-The ANALYSIS_DATE parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates (3 and 7 November 2026).
+The `ANALYSIS_DATE` parameter controls the main analysis date. parameter controls the main analysis date. The Tuesday–Saturday comparison uses fixed dates (3 and 7 November 2026).
 
 ## AI-assisted development
 
